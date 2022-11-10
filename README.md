@@ -37,11 +37,11 @@ export WHITELIST=ls,make
 
 5. Rebuild packages twice locally from software source in mindSpore build system  
 
-7. Unpack your two packages using the unpacker.py tool  
+6. Unpack your two packages using the unpacker.py tool  
 ```
 python unpacker.py ${first package path} ${second package path}
 ```
-6. Display differences using diffoscope : 
+7. Display differences using diffoscope : 
 ```
 yum install diffoscope  
 diffoscope ${first file path} ${second file path} --html diff.html
